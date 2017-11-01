@@ -1,0 +1,90 @@
+@charset "utf-8";
+<style type="text/css">
+*
+body {
+				margin:0px;
+				padding:0px;
+				background:#666;
+			}
+			
+			header, nav, input, footer , ul , ol {
+				width:1000px;
+				margin:auto;
+			}
+			
+			.logo { 
+			float:left;
+			
+			}
+			
+
+			#header {
+				margin:auto;
+				width:500px;
+				font-family: sans-serif;
+			}
+
+			ul, ol {
+				list-style:none;
+				line-height:40px;
+			}
+
+			.nav li a {
+				background-color:#006;
+				color:#FFF;
+				padding:0px 37px;
+				display:block;
+				text-decoration:none;
+				
+			}
+			
+			.nav li a:hover {
+				background-color:#F47920;
+			}
+ 
+			.nav > li {
+				float:left;
+			}
+
+			
+			.nav li ul {
+				display:none;
+				position:absolute;
+				min-width:140px;
+			}
+
+			.nav li:hover > ul {
+				display:block;
+			}
+
+			.nav li ul li {
+				position:relative;
+			}
+
+			.nav li ul li ul {
+				right:0px;
+				top:0px;
+			}
+
+      input[type=search] {
+          appearance: none;
+          -webkit-appearance: none;
+          -moz-appearance: none;
+          -o-appearance: none;}
+
+      footer {
+              position: relative;
+              margin-top: -50px;
+              height: 100px;
+              padding:5px 0px;
+              clear: both;
+              background: #005883;
+              text-align: center;
+              color: #fff;
+          }
+
+      . conatdor {
+		  line-height:
+
+		</style>/* CSS Document */
+
